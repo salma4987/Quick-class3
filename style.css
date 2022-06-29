@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	border-bottom: 2px solid #eee;
+	position: fixed;
+	background-color: white;
+	
+
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+ 
+}
+.menu ul li a{
+	line-height: 62px;
+	font-weight: 300;
+}
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+
+}
+.banner-content h1{
+	font-size: 52px;
+	color: #3f3d56;
+	line-height: 1.2;
+	margin-bottom: 16px;
+	font-weight: 600px;
+
+}
+.banner-content h1 span{
+	color: #008aff;
+}
+
+.banner-content p{
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+.project{
+	width: 100%;
+	padding-bottom: 60px;
+}
+.project-content{
+	display: flex;
+}
+.left, .right{
+	flex-basis: 50%;
+}
+.left{
+	text-align: right;
+}
+.left h2{
+	font-size: 42px;
+	color: red;
+}
+.left p{
+	font-weight: 300;
+	font-synthesis: 16px;
+
+}
+.right h2{
+	font-size: 42px;
+	color: #3f3d56;
+	line-height: 1.2;
+}
+.left{
+	margin-right: 16px;
+}
+.right{
+	margin-left: 16px;
+}
+
+.services{
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.s-content{
+	display: grid;
+	grid-template-columns:  auto auto auto;
+	column-gap: 22px;
+}
+
+.bg-1{
+	background-color: #fdebed;
+}
+.bg-1:hover{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0 ,0.1) 0px 10px 50px;
+
+}
+.bg-2{
+	background-color: #ebf9f4;
+}
+.bg-2:hover{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0 ,0.1) 0px 10px 50px;
+
+}
+
+.bg-3{
+	background-color: #fff7e8;
+}
+.bg-3:hover{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0 ,0.1) 0px 10px 50px;
+
+}
+
+.s-item{
+	padding: 40px 30px;
+}
+
+.s-item h5{
+
+}
+.footer{
+	width: 100%;
+	background-color: #008aff;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.footer p{
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+
+}
+.footer p span{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.footer i{
+	height: 40px;
+	width: 40px;
+	background:white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	font-size: 16px;
+	margin: 10px 6px;
+	transition: 0.5s; 
+}
+
+.footer i:hover{
+	background-color: pink;
+	color: white;
+	transform: rotate(90deg);
+	transition: 0.5s;
+}
+
+
+
+
+
+
